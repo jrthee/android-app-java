@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/appbar_moviefrag"
+        android:title="MovieFragment"
+        android:icon="@drawable/alarm2"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/appbar_viewpager"
+        android:title="ViewPager"
+        android:icon="@drawable/appbar1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/appbar_masterdetail"
+        android:title="Master/Detail"
+        android:icon="@drawable/appbar2"
+        app:showAsAction="ifRoom" />
+</menu>

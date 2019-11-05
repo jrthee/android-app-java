@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_aboutme"
+            android:title="Change Personal Info"
+            android:icon="@drawable/navbar0"
+            />
+        <item
+            android:id="@+id/drawer_viewpager"
+            android:title="Change Email/Password"
+            android:icon="@drawable/appbar1"
+            />
+        <item
+            android:id="@+id/drawer_masterdetail"
+            android:title="Sign Out"
+            android:icon="@drawable/appbar2"
+            />
+    </group>
+</menu>

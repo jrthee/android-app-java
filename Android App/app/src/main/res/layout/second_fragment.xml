@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/u_address1"
+        android:hint="Address 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/u_address1"
+        android:id="@+id/u_address2"
+        android:hint="Address 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/c_s_z"
+        app:layout_constraintTop_toBottomOf="@id/u_address2"
+        android:orientation="horizontal"
+        android:hint="Address 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:id="@+id/u_city"
+            android:hint="City"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/u_state"
+            android:hint="State"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/u_zip"
+            android:hint="ZIP"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/back_button"
+        app:layout_constraintTop_toBottomOf="@id/c_s_z"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/next_button"
+        app:layout_constraintTop_toBottomOf="@id/c_s_z"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

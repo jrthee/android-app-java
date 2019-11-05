@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proj">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Learning Fun"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MasterDetail"></activity>
+        <activity android:name=".ViewPager" />
+        <activity android:name=".PracticeFrag" />
+        <activity android:name=".PlayFrag" />
+        <activity android:name=".PlayAnimals" />
+        <activity android:name=".PlayAnimals2" />
+        <activity android:name=".MainActivity2" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainActivity3" />
+
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".AddNewThing" android:theme="@style/Theme.AppCompat.Dialog"/>
+        <activity android:name=".UpdateReminder" android:theme="@style/Theme.AppCompat.Dialog"/>
+        <receiver android:name=".AlarmReceiver"/>
+
+        <activity android:name=".MainActivity5" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity android:name=".FirebaseDBActivity" />
+        <activity android:name=".Signin" />
+        <activity android:name=".PostMessage" />
+        <activity android:name=".ChantwithImageUpload"></activity>
+    </application>
+
+</manifest>

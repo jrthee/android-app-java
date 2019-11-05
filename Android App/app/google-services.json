@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "309575110222",
+    "firebase_url": "https://cis651project.firebaseio.com",
+    "project_id": "cis651project",
+    "storage_bucket": "cis651project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309575110222:android:d75aa41fe9201c86",
+        "android_client_info": {
+          "package_name": "com.example.proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309575110222-colm07lkh46sl4ftldsi9focaq2ecq71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvaEy_ZGQElX70qj4ntzzXbmxT0OwdK0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309575110222-colm07lkh46sl4ftldsi9focaq2ecq71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

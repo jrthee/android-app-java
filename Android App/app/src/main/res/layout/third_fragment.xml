@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+    <EditText
+        android:id="@+id/u_color"
+        android:hint="Favorite Color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/u_color"
+        android:id="@+id/u_animal"
+        android:hint="Favorite Animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/u_animal"
+        android:id="@+id/u_movie"
+        android:hint="Favorite Movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/back_button"
+        app:layout_constraintTop_toBottomOf="@id/u_movie"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/finish_button"
+        app:layout_constraintTop_toBottomOf="@id/u_movie"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

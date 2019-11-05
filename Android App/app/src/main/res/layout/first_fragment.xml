@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+    <EditText
+        android:id="@+id/u_name"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/u_name"
+        android:id="@+id/u_lastname"
+        android:hint="Last Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        app:layout_constraintTop_toBottomOf="@id/u_lastname"
+        android:id="@+id/u_nickname"
+        android:hint="Nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/next_button"
+        app:layout_constraintTop_toBottomOf="@id/u_nickname"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.constraint.ConstraintLayout>

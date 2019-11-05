@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    tools:context=".PracticeFrag">
+
+    <LinearLayout
+        android:id="@+id/practiceButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <Button
+            android:id="@+id/pracButton1"
+            android:text="Colors"
+            android:background="@drawable/watercolor"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textSize="35dp"
+            android:onClick="onClick1"/>
+        <Button
+            android:id="@+id/pracButton2"
+            android:text="Shapes"
+            android:background="@drawable/watercolor"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textSize="35dp"
+            android:onClick="onClick2"/>
+        <Button
+            android:id="@+id/pracButton3"
+            android:text="Animals"
+            android:background="@drawable/watercolor"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textSize="35dp"
+            android:onClick="onClick3"/>
+        <Button
+            android:id="@+id/pracButton4"
+            android:text="Food"
+            android:background="@drawable/watercolor"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textSize="35dp"
+            android:onClick="onClick4"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
